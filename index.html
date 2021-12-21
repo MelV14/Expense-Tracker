@@ -37,71 +37,64 @@
                 </div>    
             </div>
 
-<p style ="background-color:white; color:black;"> <b>BALANCE:</p>     <p style ="background-color:white;">INCOME:</p>
-<p style ="background-color:white;">SAVINGS:</p>   
-<p style ="background-color:red;">EXPENSE:</p></b>
 </hr>
+            <h2>New transaction</h2>
+            <h3>Choose a transaction type</h3>
+            <form id="form">
+                <div class="form-control">
+                    <label for="income">ADD AN INCOME</label><br>
+                    <input
+                        type="radio"
+                        id="income"
+                        name="money"
+                        value="Income"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="expense">ADD AN EXPENSE</label><br>
+                    <input
+                        type="radio"
+                        id="expense"
+                        name="money"
+                        value="Expense"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="income">ADD SAVINGS</label><br>
+                    <input
+                        type="radio"
+                        id="savings"
+                        name="money"
+                        value="Savings"
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="text">Describe your transaction type</label>
+                    <input
+                        type="text"
+                        id="text"
+                        onfocus="this.value=''"
+                        placeholder="Enter text..."
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="text">Transaction Amount <br /> </label>
+                    <input
+                        type="number"
+                        id="amount"
+                        onfocus="this.value=''"
+                        placeholder="Enter amount..."
+                    />
+                </div>
+                <button class="button">Submit</button>
+            </form>
+            <br />
 
-<h3>History</h3>
-<ul>
-    <li class="minus">
-    Cash <span>-MUR </span><button class="delete-btn">x</button>
-  </li>
-</ul>
-
-
-
-<hr>
-<br>
-<p style= "border: 5px solid blue;"><b>Choose a transaction type:</b></p>
-
-
-<form>
-  <input type="radio" id="inc" name="money" value="Income">
-  <label for="income">ADD AN INCOME</label><br>
-  <input type="radio" id="exp" name="money" value="Expense">
-  <label for="expense">ADD AN EXPENSE</label><br>
-  <input type="radio" id="sav" name="money" value="Savings">
-  <label for="savings">ADD SAVINGS</label>
-</form>
-
-
-<p>
-<form action="/action_page.php" autocomplete="on">
-  <label for="transaction">Describe your transaction type:</label><br>
-  <input type="text" id="exp" name="transaction" required><br>
-  <label for="money">Amount of money:</label><br>
-  <input type="number" id="money" name="lmoney" autocomplete="off" value="0.00"><br>
-  <input type="submit" value="Submit">
-</form>
-</p>
-
-</hr>
-
-<!--
-<table>
-  <tr>
-    <th>Income</th>
-    <th>Expense</th>
-  </tr>
-  <tr>
-    <td>20 000</td>
-    <td>300</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>Description of B</td>
-  </tr>
-</table> 
-
-<ul>
-  <li>Cofee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul> -->
-</div>
-<script src="script.js"></script>
-</body>
+            <h3>History</h3>
+            <ul id="list" class="list"></ul>
+        </div>
+        <script src="app.js"></script>
+    </body>
 </html>
 
 
