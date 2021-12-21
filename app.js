@@ -22,7 +22,7 @@ function addTransaction(e) {
     if (text.value.trim() === "" || amount.avalue.trim() === "")
     {
         document.getElementById("error_msg").innerHTML =
-           "<span >Error: Please describe your transaction and enter its corresponding amount!</span>";
+           <span>Error: Please describe your transaction and enter its corresponding amount!</span>;
         setTimeout(
           () => (document.getElementById("error_msg").innerHTML =
           ""),
@@ -30,7 +30,7 @@ function addTransaction(e) {
         );     
     }   else {
         const transaction = {
-          id: generatteID(),
+          id: generateID(),
           text: text.value,
           amount: +amount.value,
         };
@@ -50,7 +50,7 @@ function addTransaction(e) {
 
 //To generate random ID
 function generationID() {
-    return Math.floor(Math.random() *10000000000000);
+    return Math.floor(Math.random() *100000000000);
 }
 
 //History
@@ -107,7 +107,7 @@ function updatelocalstorage() {
 //starting the app
 function start() {
     list.innerHTML = "";
-    transaction.forEach(addTransactionDOM);
+    transactions.forEach(addTransactionDOM);
     updateValues();
 }
 
