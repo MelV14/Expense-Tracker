@@ -76,16 +76,16 @@ h4 {
 }
 
 .income {
-    color: rgb(2, 252, 15);
+    color: #DCD9EF;
 }
 .expense {
-    color: rgb(245, 10, 10);
+    color: #DCD9EF;
 }
 #balance {
-    color: rgb(26, 26, 94);
+    color: #DCD9EF;
 }
 .bg-light {
-    background-color: rgb(124, 53, 27);
+    background-color: #502411;
     margin: 0 2px;
 
     border-radius: 3px;
@@ -113,8 +113,8 @@ label {
     padding: 8px 0;
     border-radius: 1rem;
     outline: lightskyblue;
-    background-color: royalblue;
-    color: whitesmoke;
+    background-color: #1A3EA8;
+    color: #BFFDD0;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-size: 12px;
