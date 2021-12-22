@@ -1,10 +1,10 @@
 const income = document.getElementById("income");
-const expense = document = document.getElementById("expense");
-const balance = document = document.getElementById("balance");
+const expense  = document.getElementById("expense");
+const balance = document.getElementById("balance");
 const form = document.getElementById("form");
-const list = document = document.getElementById("list");
-const amount = document = document.getElementById("amount");
-const text = document = document.getElementById("text");
+const list  = document.getElementById("list");
+const amount = document.getElementById("amount");
+const text  = document.getElementById("text");
 
 // local storage
 const localstorageTransactions = JSON.parse(
@@ -86,7 +86,7 @@ function updateValues() {
        .reduce((bal, value) => (bal += value), 0) * -(1).toFixed(2);
 
     balance.innerText = '$${total}';
-    income.innerText = $;{income};
+    income.innerText = "$${income}";
     expense.innerText = '$${expense}';
 }
 
