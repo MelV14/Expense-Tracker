@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 200vh;
     margin: 0;
 }
 .title {
@@ -187,6 +187,7 @@ ul li {
     margin: 5px 0;
     width: 200px;
     height: 200px;
+    border-radius: 1rem;
     border-radius: 50%;
     background-image: conic-gradient(
         rgb(13, 245, 25) 90deg, 
@@ -199,4 +200,5 @@ body,
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
