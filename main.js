@@ -83,7 +83,7 @@ function updateValues() {
        .reduce((balance, value) => (balance += value), 0) * -(1).toFixed(2);
 
     balance.innerText = '$${total}';
-    income.innerText = "$${income}";
+    income.innerText = '$${income}';
     expense.innerText = '$${expense}';
 }
 
