@@ -110,7 +110,5 @@ function start() {
     transactions.forEach(addTransactionDOM);
     updateValues();
 }
-
 start();
-
 form.addEventListener("submit", addTransaction);
