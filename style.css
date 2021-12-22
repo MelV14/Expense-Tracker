@@ -181,17 +181,17 @@ ul li {
     cursor: pointer;
 }
 .piechart {
-    margin-top: 300px;
-    display: contents;
-    position: relative;
+    margin-top: 100px;
+    display: block;
+    position: absolute;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-image: conic-gradient(
-        rgb(13, 245, 25) 70deg, 
-        red 235deg, 
-        blue 25deg,
-        white 20deg);
+        rgb(13, 245, 25) 90deg, 
+        red 90deg, 
+        blue 90deg,
+        white 90deg);
 }
 body,
     .piechart {
