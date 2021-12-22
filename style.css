@@ -181,7 +181,7 @@ ul li {
     cursor: pointer;
 }
 .piechart {
-    margin-inline-end: 200px;
+    margin: 200px;
     display: block;
     position: bottom;
     width: 100px;
