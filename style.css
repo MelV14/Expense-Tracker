@@ -194,8 +194,8 @@ ul li {
 }
 body,
     .piechart {
-        display:-ms-inline-flexbox;
-        justify-content: center;
+        display:flexbox;
+        justify-content:start;
         align-items: center;
         position: center;
     }
