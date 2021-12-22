@@ -186,7 +186,7 @@ ul li {
     position: bottom;
     width: 400px;
     height: 400px;
-    border-radius: 50%;
+    border-radius: 25%;
     background-image: conic-gradient(
         rgb(54, 221, 21) 70deg, 
         rgb(233, 13, 13) 0 235deg, 
