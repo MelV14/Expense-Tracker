@@ -76,16 +76,16 @@ h4 {
 }
 
 .income {
-    color: rgb(13, 245, 25);
+    color: rgb(2, 252, 15);
 }
 .expense {
-    color: red;
+    color: rgb(245, 10, 10);
 }
 #balance {
-    color: blue;
+    color: rgb(26, 26, 94);
 }
 .bg-light {
-    background-color: rgb(245, 106, 56);
+    background-color: rgb(124, 53, 27);
     margin: 0 2px;
 
     border-radius: 3px;
@@ -120,7 +120,7 @@ label {
     font-size: 12px;
 }
 .button:hover {
-    color: royalblue;
+    color: rgb(53, 91, 204);
     background-color: whitesmoke;
 }
 
