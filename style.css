@@ -184,14 +184,14 @@ ul li {
     margin-top: 300px;
     display: block;
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-image: conic-gradient(
         rgb(13, 245, 25) 70deg, 
-        red 0 235deg, 
-        blue 0
-        white 0)
+        red 235deg, 
+        blue 25deg,
+        white 20deg);
 }
 body,
     .piechart {
