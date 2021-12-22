@@ -24,7 +24,7 @@ body {
     border: 3px solid lightsalmon;
     margin: 25px;
     width: 350px;
-    background-color: springgreen;
+    background-color: rgb(6, 78, 42);
 }
 
 h1{
@@ -39,7 +39,7 @@ h3 {
     padding-bottom: 5px;
     margin-bottom: 12px;
     text-align: center;
-    color: teal;
+    color: #DCD9EF;
 }
 
 h4 {
